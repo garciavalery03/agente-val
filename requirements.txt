@@ -1,0 +1,18 @@
+# Dependencias de ConsulAlim AI
+# Instalar con:  python -m pip install -r requirements.txt
+
+# RAG: lectura de PDFs del RTCA
+pypdf>=4.0
+
+# Extracción de la tabla de aditivos (Anexo A del RTCA 419) por columnas
+# para construir data/aditivos_rtca.json (tools/construir_aditivos.py)
+pdfplumber>=0.11
+
+# RAG: recuperación por TF-IDF (trae numpy y scipy)
+scikit-learn>=1.3
+
+# Canal de salida visual: render de la etiqueta como imagen PNG
+Pillow>=10.0
+
+# Web local de pruebas (canal tipo dashboard)
+streamlit>=1.30

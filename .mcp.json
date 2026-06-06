@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "uthagentes": {
+      "type": "http",
+      "url": "https://breeches-wing-ensnare.ngrok-free.dev/mcp",
+      "headersHelper": "C:/Agente_Val/agente-val/tools/mcp_headers.cmd"
+    },
+    "uthagentes-local": {
+      "command": "C:/Users/ADMIN/AppData/Local/Programs/Python/Python313/python.exe",
+      "args": ["C:/Agente_Val/uthAgentes/mcp-server/server.py"]
+    }
+  }
+}

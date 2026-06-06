@@ -143,12 +143,14 @@ def caso_tortilla() -> None:
         "estearato de calcio, acido lactico, fosfato tricalcico, caseinato de sodio, achiote"
     )
     enviar("Tortilla de maíz sabor queso (prueba)")
+    enviar("La Tortillería del Valle")     # marca
     enviar("preenvasado")
     enviar("snack de maíz frito")
     enviar(lista)
     enviar("listo")
 
     d = _estado.datos
+    comprobar(d.get("marca") == "La Tortillería del Valle", "Marca capturada en su paso")
     adit = [i for i in d["ingredientes"] if i.get("clase") == "Aditivo"]
     nombres_adit = {a["nombre"] for a in adit}
     comprobar(any(a["ins"] == "621" for a in adit), "Glutamato → INS 621 (Potenciador del sabor)")
@@ -174,11 +176,17 @@ def caso_tortilla() -> None:
     comprobar(bool(_estado.get("imagen")), "Se generó la imagen de la etiqueta")
     comprobar("nixtamalizado" in str(d["ingredientes"]), "Ortografía: 'mixtamalizado' → 'nixtamalizado'")
 
+    # El correo es OBLIGATORIO: una entrada que no es correo no debe avanzar.
+    # (No enviamos un correo real en la prueba para no spamear.)
+    enviar("esto-no-es-un-correo")
+    comprobar(_estado.paso == "enviar", "Correo obligatorio: no avanza sin uno válido")
+
     # Confirma la declaración final completa.
     from src.modelos import Etiqueta
     texto = Etiqueta.from_dict(d).to_texto()
     comprobar("Contiene: trigo, leche" in texto, "Etiqueta lleva 'Contiene: trigo, leche'")
     comprobar("INS 621" in texto and "INS 102" in texto, "Etiqueta declara los aditivos con INS")
+    comprobar("Marca: La Tortillería del Valle" in texto, "Etiqueta muestra la marca")
     print("\n--- Etiqueta final (texto) ---")
     print(texto)
 
@@ -190,6 +198,7 @@ def caso_vino() -> None:
     print("\n=== Caso 2: vino (grado alcohólico + sulfitos como alérgeno) ===")
     app.reiniciar()
     enviar("Vino de jamaica")
+    enviar("no")                   # sin marca (opcional)
     enviar("vino")                 # → bebida_alcoholica
     enviar("fermentado artesanal")
     enviar("flor de jamaica 5 kg")

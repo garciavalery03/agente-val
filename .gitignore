@@ -1,0 +1,22 @@
+# Secretos: nunca subir el .env real
+.env
+
+# Entorno virtual de Python
+.venv/
+venv/
+
+# Cache de Python
+__pycache__/
+*.pyc
+
+# Estado generado por el módulo en pausa (dosificación)
+data/inventario.json
+
+# Etiquetas GENERADAS (salida de trabajo).
+# Se conservan los ejemplos de referencia (data/etiquetas/Ejemplo/).
+data/etiquetas/*
+!data/etiquetas/.gitkeep
+!data/etiquetas/Ejemplo/
+
+# Base de datos local del MCP (si se corre el modo local)
+*.db
