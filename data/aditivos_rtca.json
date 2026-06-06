@@ -1,0 +1,740 @@
+{
+  "_meta": {
+    "fuente": "RTCA 67.04.54:18 (RTCA No. 419-2019), Anexo A",
+    "generado_de": "RTCA_No.-419-2019-ADITIVOS-ALIMENTARIOS.pdf",
+    "metodo": "pdfplumber + voto por mayoría (best-effort)",
+    "nota": "Respaldo de cola larga. La tabla curada de src/conocimiento.py tiene prioridad. La función de aditivos multifunción es aproximada.",
+    "filas_leidas": 1006,
+    "aditivos_unicos": 182
+  },
+  "aditivos": {
+    "100i": {
+      "nombre": "Curcumina",
+      "funcion": "Colorante"
+    },
+    "100ii": {
+      "nombre": "Curcumina",
+      "funcion": "Colorante"
+    },
+    "100iii": {
+      "nombre": "Curcumina",
+      "funcion": "Colorante"
+    },
+    "101i": {
+      "nombre": "Riboflavinas",
+      "funcion": "Colorante"
+    },
+    "102": {
+      "nombre": "Tartracina",
+      "funcion": "Colorante"
+    },
+    "104": {
+      "nombre": "Amarillo De Quinoleina",
+      "funcion": "Colorante"
+    },
+    "110": {
+      "nombre": "Amarillo Ocaso FCF",
+      "funcion": "Colorante"
+    },
+    "1100": {
+      "nombre": "Alfa Amilasa (Carbohydras) (Bacillus Licheniformis)",
+      "funcion": "Tratamiento de harinas"
+    },
+    "1100i": {
+      "nombre": "Alfa Amilasa (Aspergillus Orysae Var.)",
+      "funcion": "Aditivo"
+    },
+    "1101iii": {
+      "nombre": "Bromelina (Proteasas)",
+      "funcion": "Espesante"
+    },
+    "1102": {
+      "nombre": "Oxidasa De Glucosa",
+      "funcion": "Antioxidante"
+    },
+    "1103": {
+      "nombre": "Invertasa (S Cerevisiae)",
+      "funcion": "Espesante"
+    },
+    "120": {
+      "nombre": "Carmines",
+      "funcion": "Colorante"
+    },
+    "122": {
+      "nombre": "Rojo De Azorrubina (Carmoisina)",
+      "funcion": "Colorante"
+    },
+    "123": {
+      "nombre": "Amaranto",
+      "funcion": "Colorante"
+    },
+    "124": {
+      "nombre": "Ponceau 4R",
+      "funcion": "Colorante"
+    },
+    "127": {
+      "nombre": "Eritrosina",
+      "funcion": "Colorante"
+    },
+    "129": {
+      "nombre": "Rojo Allura Ac",
+      "funcion": "Colorante"
+    },
+    "131": {
+      "nombre": "Azul Patente V",
+      "funcion": "Colorante"
+    },
+    "132": {
+      "nombre": "Indigotina",
+      "funcion": "Colorante"
+    },
+    "133": {
+      "nombre": "Azul Brillante FCF",
+      "funcion": "Colorante"
+    },
+    "140": {
+      "nombre": "Clorofilas",
+      "funcion": "Colorante"
+    },
+    "1400": {
+      "nombre": "Dextrinas, Almidón Tostado",
+      "funcion": "Emulsionante"
+    },
+    "1401": {
+      "nombre": "Almidón Tratado Con Ácido",
+      "funcion": "Espesante"
+    },
+    "1402": {
+      "nombre": "Almidones Tratados Con Bases",
+      "funcion": "Espesante"
+    },
+    "1403": {
+      "nombre": "Almidón Blanqueado",
+      "funcion": "Espesante"
+    },
+    "1404": {
+      "nombre": "Almidón Oxidado",
+      "funcion": "Espesante"
+    },
+    "1405": {
+      "nombre": "Almidones Tratados Con Enzimas",
+      "funcion": "Espesante"
+    },
+    "1414": {
+      "nombre": "Fostato De Dialmidón Acetilado",
+      "funcion": "Espesante"
+    },
+    "141i": {
+      "nombre": "Complejos Cupricos De Clorofilas Y Clorofilina",
+      "funcion": "Colorante"
+    },
+    "1420": {
+      "nombre": "Acetato De Almidón",
+      "funcion": "Espesante"
+    },
+    "1422": {
+      "nombre": "Adipato De Dialmidón Acetilado",
+      "funcion": "Espesante"
+    },
+    "143": {
+      "nombre": "Verde Solido FCF",
+      "funcion": "Colorante"
+    },
+    "1440": {
+      "nombre": "Almidón Hidroxipropilico",
+      "funcion": "Espesante"
+    },
+    "1450": {
+      "nombre": "Almidón Octenil Succinato Sódico",
+      "funcion": "Espesante"
+    },
+    "1503": {
+      "nombre": "Aceite De Castor",
+      "funcion": "Agente de glaseado"
+    },
+    "150a": {
+      "nombre": "Caramelo I- Caramelo Puro Cáustico",
+      "funcion": "Colorante"
+    },
+    "150b": {
+      "nombre": "Caramelo II- Caramelo Al Sulfito",
+      "funcion": "Colorante"
+    },
+    "150c": {
+      "nombre": "Caramelo III- Caramelo Al Amoníaco",
+      "funcion": "Colorante"
+    },
+    "150d": {
+      "nombre": "Caramelo IV- Caramelo Al Sulfito Amónico",
+      "funcion": "Colorante"
+    },
+    "151": {
+      "nombre": "Negro Brillante Pn",
+      "funcion": "Colorante"
+    },
+    "1520": {
+      "nombre": "Propilenglicol",
+      "funcion": "Espesante"
+    },
+    "153": {
+      "nombre": "Carbon Vegetal",
+      "funcion": "Colorante"
+    },
+    "155": {
+      "nombre": "Marron Ht",
+      "funcion": "Colorante"
+    },
+    "160": {
+      "nombre": "Extractos De Bija, Bixina, Norbixina, Annato",
+      "funcion": "Colorante"
+    },
+    "160a": {
+      "nombre": "Carotenoides",
+      "funcion": "Colorante"
+    },
+    "160aii": {
+      "nombre": "Carotenos, Beta-, Vegetales",
+      "funcion": "Colorante"
+    },
+    "160b": {
+      "nombre": "Extractos De Bija, Bixina, Norbixina, Annato",
+      "funcion": "Colorante"
+    },
+    "160bi": {
+      "nombre": "Extracto De Bija, Bixina, Norbixina, Annato",
+      "funcion": "Colorante"
+    },
+    "160c": {
+      "nombre": "Oleorresina De Paprika",
+      "funcion": "Colorante"
+    },
+    "160d": {
+      "nombre": "Licopenos",
+      "funcion": "Colorante"
+    },
+    "160e": {
+      "nombre": "Carotenal, Beta-Apo- 8’",
+      "funcion": "Colorante"
+    },
+    "161b": {
+      "nombre": "Luteína",
+      "funcion": "Colorante"
+    },
+    "161g": {
+      "nombre": "Cantaxantina",
+      "funcion": "Colorante"
+    },
+    "162": {
+      "nombre": "Rojo De Remolacha",
+      "funcion": "Colorante"
+    },
+    "163": {
+      "nombre": "Antocianinas, Extracto De Piel De Uva (Enocianina)",
+      "funcion": "Colorante"
+    },
+    "163ii": {
+      "nombre": "Extractos De Piel De Uva (Enocianina)",
+      "funcion": "Colorante"
+    },
+    "170i": {
+      "nombre": "Carbonato Cálcico",
+      "funcion": "Colorante"
+    },
+    "171": {
+      "nombre": "Dióxido De Titanio",
+      "funcion": "Colorante"
+    },
+    "181": {
+      "nombre": "Ácido Tanico",
+      "funcion": "Colorante"
+    },
+    "200": {
+      "nombre": "Sorbatos",
+      "funcion": "Conservante"
+    },
+    "200i": {
+      "nombre": "Sorbatos",
+      "funcion": "Conservante"
+    },
+    "210": {
+      "nombre": "Benzoatos",
+      "funcion": "Conservante"
+    },
+    "214": {
+      "nombre": "Hidroxibenzoatos, P",
+      "funcion": "Conservante"
+    },
+    "220": {
+      "nombre": "Sulfitos",
+      "funcion": "Colorante"
+    },
+    "224": {
+      "nombre": "Metabisulfito De Potasio",
+      "funcion": "Regulador de acidez"
+    },
+    "227": {
+      "nombre": "Sulfitos",
+      "funcion": "Conservante"
+    },
+    "234": {
+      "nombre": "Nisina",
+      "funcion": "Conservante"
+    },
+    "235": {
+      "nombre": "Pimaricina (Natamicina)",
+      "funcion": "Conservante"
+    },
+    "236": {
+      "nombre": "Formatos",
+      "funcion": "Conservante"
+    },
+    "260": {
+      "nombre": "Ácido Acético Glacial",
+      "funcion": "Regulador de acidez"
+    },
+    "261": {
+      "nombre": "Acetato De Potasio",
+      "funcion": "Regulador de acidez"
+    },
+    "262ii": {
+      "nombre": "Diacetato De Sodio",
+      "funcion": "Conservante"
+    },
+    "264": {
+      "nombre": "Acetato De Amonio",
+      "funcion": "Conservante"
+    },
+    "270": {
+      "nombre": "Ácido Lactico (L-, D- Y Dl-)",
+      "funcion": "Regulador de acidez"
+    },
+    "290": {
+      "nombre": "Anhidrido Carbónico (Dioxido De Carbono)",
+      "funcion": "Leudante"
+    },
+    "296": {
+      "nombre": "Ácido Málico (Dl-)",
+      "funcion": "Regulador de acidez"
+    },
+    "297": {
+      "nombre": "Acido Fumárico",
+      "funcion": "Regulador de acidez"
+    },
+    "300": {
+      "nombre": "Ácido Ascórbico",
+      "funcion": "Regulador de acidez"
+    },
+    "301": {
+      "nombre": "Ascorbato De Sodio",
+      "funcion": "Antioxidante"
+    },
+    "302": {
+      "nombre": "Ascorbato Calcico",
+      "funcion": "Antioxidante"
+    },
+    "303": {
+      "nombre": "Ascorbato De Potasio",
+      "funcion": "Antioxidante"
+    },
+    "304": {
+      "nombre": "Ésteres De Ascorbilo",
+      "funcion": "Antioxidante"
+    },
+    "307a": {
+      "nombre": "Tocoferoles",
+      "funcion": "Antioxidante"
+    },
+    "315": {
+      "nombre": "Ácido Eritórbico",
+      "funcion": "Antioxidante"
+    },
+    "319": {
+      "nombre": "Tbhq",
+      "funcion": "Antioxidante"
+    },
+    "320": {
+      "nombre": "BHA Butilhidroxianisol",
+      "funcion": "Antioxidante"
+    },
+    "321": {
+      "nombre": "BHT Butilhidroxitolueno",
+      "funcion": "Antioxidante"
+    },
+    "327": {
+      "nombre": "Lactato Cálcico",
+      "funcion": "Regulador de acidez"
+    },
+    "330": {
+      "nombre": "Ácido Cítrico",
+      "funcion": "Regulador de acidez"
+    },
+    "331iii": {
+      "nombre": "Citrato Trisódico",
+      "funcion": "Regulador de acidez"
+    },
+    "333": {
+      "nombre": "Citratos De Calcio",
+      "funcion": "Regulador de acidez"
+    },
+    "333iii": {
+      "nombre": "Citratos De Calcio (Citrato Tricalcico)",
+      "funcion": "Regulador de acidez"
+    },
+    "334": {
+      "nombre": "Tartratos",
+      "funcion": "Regulador de acidez"
+    },
+    "335i": {
+      "nombre": "Tartratos",
+      "funcion": "Conservante"
+    },
+    "336i": {
+      "nombre": "Tartrato Monopotásico",
+      "funcion": "Regulador de acidez"
+    },
+    "338": {
+      "nombre": "Fosfatos",
+      "funcion": "Regulador de acidez"
+    },
+    "341i": {
+      "nombre": "Fosfatos (Fosfato De Calcio)",
+      "funcion": "Regulador de acidez"
+    },
+    "342iii": {
+      "nombre": "Fosfatos",
+      "funcion": "Regulador de acidez"
+    },
+    "350i": {
+      "nombre": "Hidrogenomalato De Sodio",
+      "funcion": "Regulador de acidez"
+    },
+    "351i": {
+      "nombre": "Hidrogenomalato De Potasio",
+      "funcion": "Regulador de acidez"
+    },
+    "355": {
+      "nombre": "Adipatos",
+      "funcion": "Regulador de acidez"
+    },
+    "381": {
+      "nombre": "Citrato De Amonio Férrico",
+      "funcion": "Aditivo"
+    },
+    "384": {
+      "nombre": "Citrato De Isopropilo",
+      "funcion": "Conservante"
+    },
+    "388": {
+      "nombre": "Tiodipropionatos",
+      "funcion": "Antioxidante"
+    },
+    "392": {
+      "nombre": "Extracto De Romero",
+      "funcion": "Antioxidante"
+    },
+    "401": {
+      "nombre": "Alginato De Sodio",
+      "funcion": "Espesante"
+    },
+    "402": {
+      "nombre": "Alginato De Potasio",
+      "funcion": "Espesante"
+    },
+    "403": {
+      "nombre": "Alginato De Amonio",
+      "funcion": "Espesante"
+    },
+    "404": {
+      "nombre": "Alginato De Calcio",
+      "funcion": "Espesante"
+    },
+    "405": {
+      "nombre": "Alginato De Propilenglicol",
+      "funcion": "Espesante"
+    },
+    "406": {
+      "nombre": "Agar",
+      "funcion": "Espesante"
+    },
+    "407": {
+      "nombre": "Carragenina Y Sus Sales",
+      "funcion": "Espesante"
+    },
+    "407a": {
+      "nombre": "Alga Eucheuma Elaborada (Carragenina Semi Refinada)",
+      "funcion": "Espesante"
+    },
+    "412": {
+      "nombre": "Goma Guar",
+      "funcion": "Espesante"
+    },
+    "414": {
+      "nombre": "Goma Arábiga",
+      "funcion": "Aditivo"
+    },
+    "430": {
+      "nombre": "Estearatos De Polioxietileno",
+      "funcion": "Estabilizante"
+    },
+    "432": {
+      "nombre": "Polisorbatos",
+      "funcion": "Estabilizante"
+    },
+    "440": {
+      "nombre": "Pectinas (Amida Y No Amida)",
+      "funcion": "Emulsionante"
+    },
+    "442": {
+      "nombre": "Sales Amónicas Del Ácido Fostatídico",
+      "funcion": "Estabilizante"
+    },
+    "459": {
+      "nombre": "Beta Ciclodextrina",
+      "funcion": "Estabilizante"
+    },
+    "460i": {
+      "nombre": "Celulosa Microcristalina",
+      "funcion": "Espesante"
+    },
+    "466": {
+      "nombre": "Carboximetil Celulosa Sodica",
+      "funcion": "Espesante"
+    },
+    "470b": {
+      "nombre": "Sales Magnesicas De Ácidos Grasos",
+      "funcion": "Estabilizante"
+    },
+    "471": {
+      "nombre": "Mono Y Diglicéridos",
+      "funcion": "Espesante"
+    },
+    "472a": {
+      "nombre": "Ésteres Acéticos De Los Mono Y Diglicéridos De Los Ácidos Grasos",
+      "funcion": "Estabilizante"
+    },
+    "472b": {
+      "nombre": "Ésteres Lácticos Y De Ácidos Grasos De Glicerol",
+      "funcion": "Emulsionante"
+    },
+    "472e": {
+      "nombre": "Ésteres Diacetiltartaricos Y De Los Ácidos Grasos De Glicerol",
+      "funcion": "Estabilizante"
+    },
+    "473": {
+      "nombre": "Ésteres De Ácidos Grasos Y Sacarosa",
+      "funcion": "Espesante"
+    },
+    "474": {
+      "nombre": "Sucroglicéridos",
+      "funcion": "Emulsionante"
+    },
+    "476": {
+      "nombre": "Ésteres Poliglicéridos Del Ácido Ricinoléico Interesterificado",
+      "funcion": "Estabilizante"
+    },
+    "477": {
+      "nombre": "Esteres De Propilenglicol De Ácidos Grasos",
+      "funcion": "Emulsionante"
+    },
+    "480": {
+      "nombre": "Sulfosuccionato De Dioctil Sodico",
+      "funcion": "Estabilizante"
+    },
+    "481i": {
+      "nombre": "Estearoil-2- Lactilatos",
+      "funcion": "Emulsionante"
+    },
+    "491": {
+      "nombre": "Esteres De Sorbitan De Ácidos Grasos",
+      "funcion": "Emulsionante"
+    },
+    "493": {
+      "nombre": "Esteres De Sorbitan De Ácidos Grasos (Laureato De Sorbitan)",
+      "funcion": "Emulsionante"
+    },
+    "500": {
+      "nombre": "Bicarbonato De Sodio",
+      "funcion": "Leudante"
+    },
+    "500ii": {
+      "nombre": "Carbonato Ácido De Sodio",
+      "funcion": "Regulador de acidez"
+    },
+    "500iii": {
+      "nombre": "Sesquicarbonato De Sodio",
+      "funcion": "Regulador de acidez"
+    },
+    "504i": {
+      "nombre": "Carbonato De Magnesio",
+      "funcion": "Regulador de acidez"
+    },
+    "504ii": {
+      "nombre": "Bicarbonato De Magnesio",
+      "funcion": "Regulador de acidez"
+    },
+    "507": {
+      "nombre": "Ácido Clorhidrico",
+      "funcion": "Regulador de acidez"
+    },
+    "508": {
+      "nombre": "Cloruro De Potasio",
+      "funcion": "Espesante"
+    },
+    "509": {
+      "nombre": "Cloruro Cálcico",
+      "funcion": "Espesante"
+    },
+    "510": {
+      "nombre": "Cloruro De Amonio",
+      "funcion": "Aditivo"
+    },
+    "511": {
+      "nombre": "Cloruro De Magnesio",
+      "funcion": "Estabilizador del color"
+    },
+    "513": {
+      "nombre": "Ácido Sulfurico",
+      "funcion": "Regulador de acidez"
+    },
+    "516": {
+      "nombre": "Sulfato Calcico",
+      "funcion": "Regulador de acidez"
+    },
+    "521": {
+      "nombre": "Sulfato De Aluminio Y Sodio",
+      "funcion": "Estabilizante"
+    },
+    "523": {
+      "nombre": "Sulfato De Aluminio Y Amonio",
+      "funcion": "Estabilizante"
+    },
+    "524": {
+      "nombre": "Hidroxido De Sodio",
+      "funcion": "Regulador de acidez"
+    },
+    "528": {
+      "nombre": "Hidróxido De Magnesio",
+      "funcion": "Regulador de acidez"
+    },
+    "541i": {
+      "nombre": "Fosfato De Aluminio Y Sodio",
+      "funcion": "Regulador de acidez"
+    },
+    "551": {
+      "nombre": "Dióxido De Silicio (Amorfo)",
+      "funcion": "Espumante"
+    },
+    "553i": {
+      "nombre": "Silicato De Magnesio (Sintetico)",
+      "funcion": "Aditivo"
+    },
+    "553iii": {
+      "nombre": "Talco",
+      "funcion": "Espesante"
+    },
+    "554": {
+      "nombre": "Silicato De Aluminio Y Sodio",
+      "funcion": "Aditivo"
+    },
+    "556": {
+      "nombre": "Silicato De Calcio Y Aluminio (Caolin) (Sintetico)",
+      "funcion": "Aditivo"
+    },
+    "570": {
+      "nombre": "Ácidos Grasos",
+      "funcion": "Antiaglomerante"
+    },
+    "574": {
+      "nombre": "Ácido Gluconico",
+      "funcion": "Regulador de acidez"
+    },
+    "575": {
+      "nombre": "Glucono Delta Lactona",
+      "funcion": "Regulador de acidez"
+    },
+    "636": {
+      "nombre": "Maltol",
+      "funcion": "Estabilizante"
+    },
+    "637": {
+      "nombre": "Etilmaltol",
+      "funcion": "Potenciador del sabor"
+    },
+    "900a": {
+      "nombre": "Dimetilpolisiloxano",
+      "funcion": "Espumante"
+    },
+    "905d": {
+      "nombre": "Aceite Mineral (Alta VIscosidad)",
+      "funcion": "Agente de glaseado"
+    },
+    "910": {
+      "nombre": "L-Cisteina",
+      "funcion": "Edulcorante"
+    },
+    "927b": {
+      "nombre": "Carbamida (Solo Para Goma De Mascar Sin Azúcar Añadido)",
+      "funcion": "Estabilizante"
+    },
+    "930": {
+      "nombre": "Peroxido De Calcio",
+      "funcion": "Aditivo"
+    },
+    "938": {
+      "nombre": "Argon",
+      "funcion": "Estabilizante"
+    },
+    "941": {
+      "nombre": "Nitrógeno",
+      "funcion": "Espumante"
+    },
+    "942": {
+      "nombre": "Oxido Nitroso",
+      "funcion": "Antioxidante"
+    },
+    "950": {
+      "nombre": "Acesulfame Potásico",
+      "funcion": "Edulcorante"
+    },
+    "951": {
+      "nombre": "Aspartame",
+      "funcion": "Edulcorante"
+    },
+    "954": {
+      "nombre": "Sacarina",
+      "funcion": "Edulcorante"
+    },
+    "955": {
+      "nombre": "Sucralosa",
+      "funcion": "Edulcorante"
+    },
+    "956": {
+      "nombre": "Alitame",
+      "funcion": "Edulcorante"
+    },
+    "957": {
+      "nombre": "Taumatina",
+      "funcion": "Potenciador del sabor"
+    },
+    "959": {
+      "nombre": "Nehoesperidina- Dihidrocalcona",
+      "funcion": "Potenciador del sabor"
+    },
+    "960": {
+      "nombre": "Glicósidos De Esteviol",
+      "funcion": "Edulcorante"
+    },
+    "966": {
+      "nombre": "Lactitol",
+      "funcion": "Edulcorante"
+    },
+    "968": {
+      "nombre": "Eritrithol",
+      "funcion": "Edulcorante"
+    },
+    "969": {
+      "nombre": "Advantame",
+      "funcion": "Edulcorante"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "nombre": "Mermelada de Melocotón",
+  "tipo": "semisolido",
+  "descripcion": "conserva de fruta pasteurizada",
+  "ingredientes": [
+    {"clase": "Ingrediente", "nombre": "Melocotón", "cantidad": 6, "unidad": "kg", "funcion": "fruta base"},
+    {"clase": "Ingrediente", "nombre": "Jarabe de glucosa y fructosa", "cantidad": 5, "unidad": "kg", "funcion": "edulcorante"},
+    {"clase": "Ingrediente", "nombre": "Agua", "cantidad": 4, "unidad": "kg", "funcion": "disolvente"},
+    {"clase": "Ingrediente", "nombre": "Azúcar", "cantidad": 3, "unidad": "kg", "funcion": "edulcorante"},
+    {"clase": "Aditivo", "nombre": "Pectina", "cantidad": 0.3, "unidad": "kg", "funcion": "gelificante", "ins": "440"},
+    {"clase": "Aditivo", "nombre": "Ácido cítrico", "cantidad": 0.2, "unidad": "kg", "funcion": "regulador de acidez", "ins": "330"},
+    {"clase": "Aditivo", "nombre": "Sorbato de potasio", "cantidad": 0.1, "unidad": "kg", "funcion": "conservante", "ins": "202"}
+  ],
+  "contenido_neto": [340, "g"],
+  "pais_origen": "Honduras",
+  "responsable": "lachiquitasabrosa S.A de R.l",
+  "direccion_responsable": "Res. la Cañada, Bloque AF, Tegucigalpa",
+  "instrucciones": "Una vez abierto, refrigérese.",
+  "alergenos": []
+}

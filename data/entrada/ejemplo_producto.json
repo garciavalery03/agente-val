@@ -1,0 +1,19 @@
+{
+  "nombre": "Mermelada de mora artesanal",
+  "tipo": "semisolido",
+  "descripcion": "conserva de fruta pasteurizada",
+  "ingredientes": [
+    {"nombre": "Mora", "cantidad": 55, "unidad": "kg", "funcion": "fruta base"},
+    {"nombre": "Azúcar", "cantidad": 43, "unidad": "kg", "funcion": "edulcorante"},
+    {"nombre": "Pectina", "cantidad": 1.5, "unidad": "kg", "funcion": "gelificante"},
+    {"clase": "Aditivo", "nombre": "Benzoato de sodio", "cantidad": 0.5, "unidad": "kg",
+     "funcion": "conservante", "ins": "211", "dosis_maxima_mg_kg": 1000}
+  ],
+  "contenido_neto": [250, "g"],
+  "pais_origen": "Honduras",
+  "responsable": "Emprendimiento La Mora S. de R.L.",
+  "direccion_responsable": "Col. Centro, Tegucigalpa, Honduras",
+  "instrucciones": "Consérvese en lugar fresco. Refrigerar después de abrir.",
+  "alergenos": [],
+  "fecha_vencimiento": "31/12/26"
+}
